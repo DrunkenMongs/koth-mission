@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ARMA3">
+	<Package name="intro">
+		<Key ID="STR_DGX_ENTERBLU">	
+			<Original>Now entering BLUFOR Base</Original>
+			<English>Now entering BLUFOR Base</English>
+			<German>Du betrittst nun die BLUFOR Basis</German>
+		</Key>
+		<Key ID="STR_DGX_LEAVEBLU">	
+			<Original>Now leaving BLUFOR Base</Original>
+			<English>Now leaving BLUFOR Base</English>
+			<German>Du verlaesst nun die BLUFOR Basis</German>
+		</Key>
+		<Key ID="STR_DGX_ENTEROP">	
+			<Original>Now entering Opfor Base</Original>
+			<English>Now entering Opfor Base</English>
+			<German>Du betrittst nun die Opfor Basis</German>
+		</Key>
+		<Key ID="STR_DGX_LEAVEOP">	
+			<Original>Now leaving Opfor Base</Original>
+			<English>Now leaving Opfor Base</English>
+			<German>Du verlaesst nun die Opfor Basi</German>
+		</Key>
+		<Key ID="STR_DGX_ENTERINT">	
+			<Original>Now entering GUERRILA Base</Original>
+			<English>Now entering GUERRILA Base</English>
+			<German>Du betrittst nun die Rebellen (NDS) Basis</German>
+		</Key>
+		<Key ID="STR_DGX_LEAVEINT">	
+			<Original>Now leaving GUERRILA Base</Original>
+			<English>Now leaving GUERRILA Base</English>
+			<German>Du verlaesst nun die Rebellen (NDS) Basis</German>
+		</Key>
+		<Key ID="STR_DGX_DEPLOYRP">	
+			<Original>&lt;t color='#ED2744'&gt;Deploy rope&lt;/t&gt;</Original>
+			<English>&lt;t color='#ED2744'&gt;Deploy rope&lt;/t&gt;</English>
+			<German>&lt;t color='#ED2744'&gt;Seil Rauswerfen&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_DGX_CUTRP">	
+			<Original>&lt;t color='#ED2744'&gt;Cut rope&lt;/t&gt;</Original>
+			<English>&lt;t color='#ED2744'&gt;Cut rope&lt;/t&gt;</English>
+			<German>&lt;t color='#ED2744'&gt;Seil kappen&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_DGX_FASTRP">	
+			<Original>&lt;t color='#ED2744'&gt;Fast rope&lt;/t&gt;</Original>
+			<English>&lt;t color='#ED2744'&gt;Fast rope&lt;/t&gt;</English>
+			<German>&lt;t color='#ED2744'&gt;Seil runterrutschen&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_DGX_RPDEPLOYED">	
+			<Original>Rope deployed</Original>
+			<English>Rope deployed</English>
+			<German>Seil Rausgeworfen</German>
+		</Key>
+		<Key ID="STR_DGX_RPCUT">	
+			<Original>Rope cut</Original>
+			<English>Rope cut</English>
+			<German>Seil gekappt</German>
+		</Key>
+		<Key ID="STR_DGX_RPFAST">	
+			<Original>Fast roping</Original>
+			<English>Fast roping</English>
+			<German>Rutsche runter</German>
+		</Key>
+		<Key ID="STR_DGX_FLEWAWAY">	
+			<Original>The chopper flew away! The rope has been cut!</Original>
+			<English>The chopper flew away! The rope has been cut!</English>
+			<German>Der Heli flog weg! Das Seil ist gekappt!</German>
+		</Key>
+		<Key ID="STR_DGX_TKPUNISH">	
+			<Original>%1 has committed TK and has been punished by %2</Original>
+			<English>%1 has committed TK and has been punished by %2</English>
+			<German>%1 verletzte ein Teamkolege und wurde von %2 bestraft</German>
+		</Key>
+		<Key ID="STR_DGX_SZCOM">	
+			<Original>Safe Zone Loaded!</Original>
+			<English>Safe Zone Loaded!</English>
+			<German>Safe Zone geladen!</German>
+		</Key>
+		<Key ID="STR_DGX_SZBASE">	
+			<Original>Entering Base - Goat Mode Enabled</Original>
+			<English>Entering Base - Goat Mode Enabled</English>
+			<German>Basis betreten - Goat Mode Aktiviert</German>
+		</Key>
+		<Key ID="STR_DGX_SZDFIRE">	
+			<Original>You can not fire your weapon in the Base</Original>
+			<English>You can not fire your weapon in the Base</English>
+			<German>Du kannst keine Waffe in einer Basis abfeuern</German>
+		</Key>
+		<Key ID="STR_DGX_NOFIREVEH">	
+			<Original>Vehicle Guns Disabled</Original>
+			<English>Vehicle Guns Disabled</English>
+			<German>Montierte Waffen an Fahrzeugen deaktiviert</German>
+		</Key>
+		<Key ID="STR_DGX_SZGODDIS">	
+			<Original>Vehicle Guns Enabled</Original>
+			<English>Vehicle Guns Enabled</English>
+			<German>Basis verlassen - God Mode deaktiviert</German>
+		</Key>
+		<Key ID="STR_DGX_FIREVEHDIS">	
+			<Original>No Firing Vehicle Guns Disabled</Original>
+			<English>No Firing Vehicle Guns Disabled</English>
+			<German>Montierte Waffen an Fahrzeugen aktiviert</German>
+		</Key>
+		<Key ID="STR_DGX_LOSAVE">	
+			<Original>Your loadout was saved on the server.</Original>
+			<English>Your loadout was saved on the server.</English>
+			<German>Deine Ausruestung wurde auf dem Server Gespeichert.</German>
+		</Key>
+		<Key ID="STR_DGX_LOLOAD">	
+			<Original>Your loadout will load now. Please wait!</Original>
+			<English>Your loadout will load now. Please wait!</English>
+			<German>Deine Ausruestung wird vom Server geladen. Bitte warten! </German>
+		</Key>
+		<Key ID="STR_DGX_TRUCKDES">	
+			<Original>Your stats were saved manually on the server.</Original>
+			<English>Your stats were saved manually on the server.</English>
+			<German>Spawnfahrzeug wurde Zerstoert und erscheint in kuerze wieder.</German>
+		</Key>
+		<Key ID="STR_DGX_SMANU">	
+			<Original>Your stats were saved manually on the server.</Original>
+			<English>Your stats were saved manually on the server.</English>
+			<German>Deine Statistiken wurden auf dem Server gespeichert.</German>
+		</Key>
+		<Key ID="STR_DGX_WPN1">	
+			<Original>Buy Katiba Carbine (Rank 1)</Original>
+			<English>Buy Katiba Carbine (Rank 1)</English>
+			<German>Kaufe Katiba Karabiner (Rang 1)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN2">	
+			<Original>Buy Katiba (Rank 2)</Original>
+			<English>Buy Katiba (Rank 2)</English>
+			<German>Kaufe Katiba (Rang 2)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN3">	
+			<Original>Buy Mk20 (Rank 3)</Original>
+			<English>Buy Mk20 (Rank 3)</English>
+			<German>Kaufe Mk20 (Rang 3)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN4">	
+			<Original>Buy TRG-21 (Rank 4)</Original>
+			<English>Buy TRG-21 (Rank 4)</English>
+			<German>Kaufe TRG-21 (Rang 4)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN5">	
+			<Original>Buy Vector (Rank 4)</Original>
+			<English>Buy Vector (Rank 4)</English>
+			<German>Kaufe Vector (Rang 4)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN6">	
+			<Original>Buy Scorpion (Rank 5)</Original>
+			<English>Buy Scorpion (Rank 5)</English>
+			<German>Kaufe Scorpion (Rang 5)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN7">	
+			<Original>Buy MX (Rank 6)</Original>
+			<English>Buy MX (Rank 6)</English>
+			<German>Kaufe MX (Rang 6)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN8">	
+			<Original>Buy MX GL (Rank 12)</Original>
+			<English>Buy MX GL (Rank 12)</English>
+			<German>Kaufe MX GL (Rang 12)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN9">	
+			<Original>Buy MXM (Rank 7)</Original>
+			<English>Buy MXM (Rank 7)</English>
+			<German>Kaufe MXM (Rang 7)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN10">	
+			<Original>Buy PDW 2000 (Rank 8)</Original>
+			<English>Buy PDW 2000 (Rank 8)</English>
+			<German>Kaufe PDW 2000 (Rang 8)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN11">	
+			<Original>Buy MX SW (Rank 8)</Original>
+			<English>Buy MX SW (Rank 8)</English>
+			<German>Kaufe MX SW (Rang 8)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN12">	
+			<Original>Buy Mk200 (Rank 10)</Original>
+			<English>Buy Mk200 (Rank 10)</English>
+			<German>Kaufe Mk200 (Rang 10)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN13">	
+			<Original>Buy Mk18 ABR (Rank 12)</Original>
+			<English>Buy Mk18 ABR (Rank 12)</English>
+			<German>Kaufe Mk18 ABR (Rang 12)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN14">	
+			<Original>Buy Zafir (Rank 16)</Original>
+			<English>Buy Zafir (Rank 16)</English>
+			<German>Kaufe Zafir (Rang 16)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN15">	
+			<Original>Buy M320 LRR (Rank 18)</Original>
+			<English>Buy M320 LRR (Rank 18)</English>
+			<German>Kaufe M320 LRR (Rang 18)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN16">	
+			<Original>Buy GM6 Lynx(Rank 20)</Original>
+			<English>Buy GM6 Lynx(Rank 20)</English>
+			<German>Kaufe GM6 Lynx(Rang 20)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN17">	
+			<Original>Buy ACP Pistol (Rank 5)</Original>
+			<English>Buy ACP Pistol (Rank 5)</English>
+			<German>Kaufe ACP Pistole (Rang 5)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN18">	
+			<Original>Buy Revolver (Rank 16)</Original>
+			<English>Buy Revolver (Rank 16)</English>
+			<German>Kaufe Revolver (Rang 16)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN19">	
+			<Original>Buy NLAW Launcher (Rank 18)</Original>
+			<English>Buy NLAW Launcher (Rank 18)</English>
+			<German>Kaufe NLAW Werfer (Rang 18)</German>
+		</Key>
+		<Key ID="STR_DGX_WPN20">	
+			<Original>Buy Alamut Launcher (Rank 22)</Original>
+			<English>Buy Alamut Launcher (Rank 22)</English>
+			<German>Kaufe Alamut Werfer (Rang 22)</German>
+		</Key>
+		<Key ID="STR_DGX_SMK1">	
+			<Original>Buy Smoke Grenade (Rank 3)</Original>
+			<English>Buy Smoke Grenade (Rank 3)</English>
+			<German>Kaufe Rauchgranate (Rang 3)</German>
+		</Key>
+		<Key ID="STR_DGX_SMK2">	
+			<Original>Buy Red Smoke (Rank 8)</Original>
+			<English>Buy Red Smoke (Rank 8)</English>
+			<German>Kaufe rote Rauchgranate (Rang 8)</German>
+		</Key>
+		<Key ID="STR_DGX_SMK3">	
+			<Original>Buy Green Smoke (Rank 8)</Original>
+			<English>Buy Green Smoke (Rank 8)</English>
+			<German>Kaufe gruene Rauchgranate (Rang 8)</German>
+		</Key>
+		<Key ID="STR_DGX_SMK4">	
+			<Original>Buy Blue Smoke (Rank 8)</Original>
+			<English>Buy Blue Smoke (Rank 8)</English>
+			<German>Kaufe blaue Rauchgranate (Rang 8)</German>
+		</Key>
+		<Key ID="STR_DGX_SMK5">	
+			<Original>Buy Purple Smoke (Rank 22)</Original>
+			<English>Buy Purple Smoke (Rank 22)</English>
+			<German>Kaufe lila Rauchgranate (Rang 22)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM1">	
+			<Original>Buy Backpack (for toolkit and rockets) (Rank 6)</Original>
+			<English>Buy Backpack (for toolkit and rockets) (Rank 6)</English>
+			<German>Kaufe Rucksack (fuer Werkzeug und Raketen) (Rang 6)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM2">	
+			<Original>Buy Parachute (Rank 1)</Original>
+			<English>Buy Parachute (Rank 1)</English>
+			<German>Kaufe Fallschirm (Rang 1)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM3">	
+			<Original>Buy Medikit (Rank 5)</Original>
+			<English>Buy Medikit (Rank 5)</English>
+			<German>Kaufe Erste-Hilfe-Pack (Rang 5)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM4">	
+			<Original>Buy Toolkit (Rank 6)</Original>
+			<English>Buy Toolkit (Rank 6)</English>
+			<German>Kaufe Werkzeug (Rang 6)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM5">	
+			<Original>Buy Binoculars (Rank 8)</Original>
+			<English>Buy Binoculars (Rank 8)</English>
+			<German>Kaufe Fernglas (Rang 8)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM6">	
+			<Original>Buy Rangefinder (Rank 18)</Original>
+			<English>Buy Rangefinder (Rank 18)</English>
+			<German>Kaufe Entfernungsmesser (Rang 18)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM7">	
+			<Original>Buy UAV Terminal (Rank 20)</Original>
+			<English>Buy UAV Terminal (Rank 20)</English>
+			<German>Kaufe UAV Terminal (Rang 20)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM8">	
+			<Original>Buy Green Flare GL (Rank 12)</Original>
+			<English>Buy Green Flare GL (Rank 12)</English>
+			<German>Kaufe gruene Leuchtgranate GL (Rang 12)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM9">	
+			<Original>Buy Red Flare GL (Rank 12)</Original>
+			<English>Buy Red Flare GL (Rank 12)</English>
+			<German>Kaufe rote Leuchtgranate GL (Rang 12)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM10">	
+			<Original>Buy White Smoke GL (Rank 12)</Original>
+			<English>Buy White Smoke GL (Rank 12)</English>
+			<German>Kaufe weise Rauchgranate GL (Rang 12)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM11">	
+			<Original>Buy Green Smoke GL (Rank 12)</Original>
+			<English>Buy Green Smoke GL (Rank 12)</English>
+			<German>Kaufe gruene Rauchgranate GL (Rang 12)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM12">	
+			<Original>Buy Red Smoke GL (Rank 12)</Original>
+			<English>Buy Red Smoke GL (Rank 12)</English>
+			<German>Kaufe rote Rauchgranate GL (Rang 12)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM13">	
+			<Original>Buy Blue Chemlight (Rank 6)</Original>
+			<English>Buy Blue Chemlight (Rank 6)</English>
+			<German>Kaufe blaues Knicklicht (Rang 6)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM14">	
+			<Original>Buy Green Chemlight (Rank 6)</Original>
+			<English>Buy Green Chemlight (Rank 6)</English>
+			<German>Kaufe gruenes Knicklicht (Rang 6)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM15">	
+			<Original>Buy Red Chemlight (Rank 6)</Original>
+			<English>Buy Red Chemlight (Rank 6)</English>
+			<German>Kaufe rotes Knicklicht (Rang 6)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM16">	
+			<Original>Buy Mini Grenade (Rank 4)</Original>
+			<English>Buy Mini Grenade (Rank 4)</English>
+			<German>Kaufe Mini Granate (Rang 4)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM17">	
+			<Original>Buy Handgrenade (Rank 11)</Original>
+			<English>Buy Handgrenade (Rank 11)</English>
+			<German>Kaufe Handgranate (Rang 11)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM18">	
+			<Original>Buy Satchel charge (Rank 21)</Original>
+			<English>Buy Satchel charge (Rank 21)</English>
+			<German>Kaufe Sprengladung (Rang 21)</German>
+		</Key>
+		<Key ID="STR_DGX_ITEM19">	
+			<Original>Buy SLAM (Rank 21)</Original>
+			<English>Buy SLAM (Rank 21)</English>
+			<German>Kaufe SLAM (Rang 21)</German>
+		</Key>
+		<Key ID="STR_DGX_MAG1">	
+			<Original>Buy Magazine (Rank 1)</Original>
+			<English>Buy Magazine (Rank 1)</English>
+			<German>Kaufe Magazin (Rang 1)</German>
+		</Key>
+		<Key ID="STR_DGX_MAG2">	
+			<Original>Buy Tracer Magazine (Rank 8)</Original>
+			<English>Buy Tracer Magazine (Rank 8)</English>
+			<German>Kaufe Leuchtspur Munition (Rang 8)</German>
+		</Key>
+		<Key ID="STR_DGX_OP1">	
+			<Original>Buy ACO optic (Rank 3)</Original>
+			<English>Buy ACO optic (Rank 3)</English>
+			<German>Kaufe ACO Visier (Rang 3)</German>
+		</Key>
+		<Key ID="STR_DGX_OP2">	
+			<Original>Buy HOLOSIGHT (Rank 5)</Original>
+			<English>Buy HOLOSIGHT (Rank 5)</English>
+			<German>Kaufe Holografisches Visier (Rang 5)</German>
+		</Key>
+		<Key ID="STR_DGX_OP3">	
+			<Original>Buy MRCO optic (Rank 6)</Original>
+			<English>Buy MRCO optic (Rank 6)</English>
+			<German>Kaufe MRCO Visier (Rang 6)</German>
+		</Key>
+		<Key ID="STR_DGX_OP4">	
+			<Original>Buy ARCO optic (Rank 8)</Original>
+			<English>Buy ARCO optic (Rank 8)</English>
+			<German>Kaufe ARCO Visier (Rang 8)</German>
+		</Key>
+		<Key ID="STR_DGX_OP5">	
+			<Original>Buy RCO optic (Rank 8)</Original>
+			<English>Buy RCO optic (Rank 8)</English>
+			<German>Kaufe RCO Visier (Rang 8)</German>
+		</Key>
+		<Key ID="STR_DGX_OP6">	
+			<Original>Buy SOS optic (Rank 10)</Original>
+			<English>Buy SOS optic (Rank 10)</English>
+			<German>Kaufe SOS Visier (Rang 10)</German>
+		</Key>
+		<Key ID="STR_DGX_SUPR1">	
+			<Original>Buy 9mm Supressor (Rank 18)</Original>
+			<English>Buy 9mm Supressor (Rank 18)</English>
+			<German>Kaufe 9mm Schalldaempfer (Rang 18)</German>
+		</Key>
+		<Key ID="STR_DGX_SUPR2">	
+			<Original>Buy .45 Supressor (Rank 18)</Original>
+			<English>Buy .45 Supressor (Rank 18)</English>
+			<German>Kaufe .45 Schalldaempfer (Rang 18)</German>
+		</Key>
+		<Key ID="STR_DGX_SUPR3">	
+			<Original>Buy 5.56 Supressor (Rank 18)</Original>
+			<English>Buy 5.56 Supressor (Rank 18)</English>
+			<German>Kaufe 5.56 Schalldaempfer (Rang 18)</German>
+		</Key>
+		<Key ID="STR_DGX_SUPR4">	
+			<Original>Buy 6.5 Supressor (Rank 18)</Original>
+			<English>Buy 6.5 Supressor (Rank 18)</English>
+			<German>Kaufe 6.5 Schalldaempfer (Rang 18)</German>
+		</Key>
+		<Key ID="STR_DGX_SUPR5">	
+			<Original>Buy 7.62 Supressor (Rank 18)</Original>
+			<English>Buy 7.62 Supressor (Rank 18)</English>
+			<German>Kaufe 7.62 Schalldaempfer (Rang 18)</German>
+		</Key>
+		<Key ID="STR_DGX_LASER">	
+			<Original>Buy IR Laserpointer (turn on with L) (Rank 10)</Original>
+			<English>Buy IR Laserpointer (turn on with L) (Rank 10)</English>
+			<German>Kaufe IR Laserpointer (Einschalten mit L) (Rang 10)</German>
+		</Key>
+		<Key ID="STR_DGX_FL">	
+			<Original>Buy Flashlight (Rank 6)</Original>
+			<English>Buy Flashlight (Rank 6)</English>
+			<German>Kaufe Taschenlampe (Rang 6)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH1">	
+			<Original>Buy Ghillie Suit (Rank 18)</Original>
+			<English>Buy Ghillie Suit (Rank 18)</English>
+			<German>Kaufe Ghillie-Anzug (Rang 18)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH2">	
+			<Original>Buy Bandanna (Rank 6)</Original>
+			<English>Buy Bandanna (Rank 6)</English>
+			<German>Kaufe Kopfband (Rang 6)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH3">	
+			<Original>Buy Beret (Rank 10)</Original>
+			<English>Buy Beret (Rank 10)</English>
+			<German>Kaufe Beret (Rang 10)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH4">	
+			<Original>Buy Cap (Rank 12)</Original>
+			<English>Buy Cap (Rank 12)</English>
+			<German>Kaufe Kappe (Rang 12)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH5">	
+			<Original>Buy Beanie (Rank 14)</Original>
+			<English>Buy Beanie (Rank 14)</English>
+			<German>Kaufe Muetze (Rang 14)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH6">	
+			<Original>Buy Booniehat Green (Rank 16)</Original>
+			<English>Buy Booniehat Green (Rank 16)</English>
+			<German>Kaufe gruenen Buschhut (Rang 16)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH7">	
+			<Original>Buy Booniehat Tan (Rank 16)</Original>
+			<English>Buy Booniehat Tan (Rank 16)</English>
+			<German>Kaufe wuesten Buschhut (Rang 16)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH8">	
+			<Original>Buy Military Cap (Rank 18)</Original>
+			<English>Buy Military Cap (Rank 18)</English>
+			<German>Kaufe Militaerische Muetze (Rang 18)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH9">	
+			<Original>Buy Shemag (Rank 20)</Original>
+			<English>Buy Shemag (Rank 20)</English>
+			<German>Kaufe Schal (Rang 20)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH10">	
+			<Original>Buy Cap (Blue) (Rank 2)</Original>
+			<English>Buy Cap (Blue) (Rank 2)</English>
+			<German>Kaufe Kappe (Blau) (Rang 2)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH11">	
+			<Original>Buy Cap (Olive) (Rank 2)</Original>
+			<English>Buy Cap (Olive) (Rank 2)</English>
+			<German>Kaufe Kappe (Olive) (Rang 2)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH12">	
+			<Original>Buy Cap (Red) (Rank 2)</Original>
+			<English>Buy Cap (Red) (Rank 2)</English>
+			<German>Kaufe Kappe (Rot) (Rang 2)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH13">	
+			<Original>Buy Rangemaster Cap (Rank 2)</Original>
+			<English>Buy Rangemaster Cap (Rank 2)</English>
+			<German>Kaufe Kappe mit Kopfhoerer (Rang 2)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH14">	
+			<Original>Buy Military Cap (MTP) (Rank 3)</Original>
+			<English>Buy Military Cap (MTP) (Rank 3)</English>
+			<German>Kaufe Militarische Kappe (MTP) (Rang 3)</German>
+		</Key>
+		<Key ID="STR_DGX_CLOTH15">	
+			<Original>Buy Military Cap (Hex) (Rank 3)</Original>
+			<English>Buy Military Cap (Hex) (Rank 3)</English>
+			<German>Kaufe Militarische Kappe (Hex) (Rang 3)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH1">	
+			<Original>Buy ATV (Rank 1)</Original>
+			<English>Buy ATV (Rank 1)</English>
+			<German>Kaufe ATV (Rang 1)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH2">	
+			<Original>Buy Hunter (Rank 12)</Original>
+			<English>Buy Hunter (Rank 12)</English>
+			<German>Kaufe Hunter (Rang 12)</German>
+		</Key>
+		<Key ID="STR_DGX_EASTVEH2">	
+			<Original>Buy Ifrit (Rank 12)</Original>
+			<English>Buy Ifrit (Rank 12)</English>
+			<German>Kaufe Ifrit (Rang 12)</German>
+		</Key>
+		<Key ID="STR_DGX_GUERVEH2">	
+			<Original>Buy Strider (Rank 12)</Original>
+			<English>Buy Strider (Rank 12)</English>
+			<German>Kaufe Strider (Rang 12)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH3">	
+			<Original>Buy Little Bird (Rank 14)</Original>
+			<English>Buy Little Bird (Rank 14)</English>
+			<German>Kaufe Little Bird (Rang 14)</German>
+		</Key>
+		<Key ID="STR_DGX_EASTVEH3">	
+			<Original>Buy PO-30 Orca (Black) (Rank 14)</Original>
+			<English>Buy PO-30 Orca (Black) (Rank 14)</English>
+			<German>Kaufe PO-30 Orca (Schwarz) (Rang 14)</German>
+		</Key>
+		<Key ID="STR_DGX_GUERVEH3">	
+			<Original>Buy WY-55 Hellcat (Green) (Rank 14)</Original>
+			<English>Buy WY-55 Hellcat (Green) (Rank 14)</English>
+			<German>Kaufe WY-55 Hellcat (Gruen) (Rang 14)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH4">	
+			<Original>Buy Armed Pickup (Rank 20)</Original>
+			<English>Buy Armed Pickup (Rank 20)</English>
+			<German>Kaufe Bewaffneter Pickup (Rang 20)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH5">	
+			<Original>Buy Ghost Hawk (Rank 22)</Original>
+			<English>Buy Ghost Hawk (Rank 22)</English>
+			<German>Kaufe Ghost Hawk (Rang 22)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH6">	
+			<Original>Buy Hunter HMG (Rank 24)</Original>
+			<English>Buy Hunter HMG (Rank 24)</English>
+			<German>Kaufe Hunter HMG (Rang 24)</German>
+		</Key>
+		<Key ID="STR_DGX_GUERVEH6">	
+			<Original>Buy Strider HMG (Rank 24)</Original>
+			<English>Buy Strider HMG (Rank 24)</English>
+			<German>Kaufe Strider HMG (Rang 24)</German>
+		</Key>
+		<Key ID="STR_DGX_EASTVEH6">	
+			<Original>Buy Ifrit HMG (Rank 24)</Original>
+			<English>Buy Ifrit HMG (Rank 24)</English>
+			<German>Kaufe Ifrit HMG (Rang 24)</German>
+		</Key>
+		<Key ID="STR_DGX_BLUVEH7">	
+			<Original>Buy HEMTT (Rank 26)</Original>
+			<English>Buy HEMTT (Rank 26)</English>
+			<German>Kaufe HEMTT (Rang 26)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH7">	
+			<Original>Buy Zamak (Rank 26)</Original>
+			<English>Buy Zamak (Rank 26)</English>
+			<German>Kaufe Zamak (Rang 26)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH8">	
+			<Original>Buy Fuel Truck (Rank 28)</Original>
+			<English>Buy Fuel Truck (Rank 28)</English>
+			<German>Kaufe Tanklaster (Rang 28)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH9">	
+			<Original>Buy Ammo Truck (Rank 30)</Original>
+			<English>Buy Ammo Truck (Rank 30)</English>
+			<German>Kaufe Munitions LKW (Rang 30)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH10">	
+			<Original>Buy AH-9 (Rank 32)</Original>
+			<English>Buy AH-9 (Rank 32)</English>
+			<German>Kaufe AH-9 (Rang 32)</German>
+		</Key>
+		<Key ID="STR_DGX_GUERVEH10">	
+			<Original>Buy WY-55 Hellcat DAR (Rank 32)</Original>
+			<English>Buy WY-55 Hellcat DAR (Rank 32)</English>
+			<German>Kaufe WY-55 Hellcat DAR (Rang 32)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH11">	
+			<Original>Buy Armed Ghost Hawk (Rank 34)</Original>
+			<English>Buy Armed Ghost Hawk (Rank 34)</English>
+			<German>Kaufe Bewaffneter Ghost Hawk (Rang 34)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH12">	
+			<Original>Buy Quadrocopter (control with UAV Terminal) (Rank 20)</Original>
+			<English>Buy Quadrocopter (control with UAV Terminal) (Rank 20)</English>
+			<German>Kaufe Quadrocopter (Mit UAV Terminal kontrollierbar) (Rang 20)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH13">	
+			<Original>Buy IFV-6c Panther (Rank 40)</Original>
+			<English>Buy IFV-6c Panther (Rank 40)</English>
+			<German>Kaufe IFV-6c Panther (Rang 40)</German>
+		</Key>
+		<Key ID="STR_DGX_OPVEH13">	
+			<Original>Buy BTR-K Kamysh (Rank 40)</Original>
+			<English>Buy BTR-K Kamysh (Rank 40)</English>
+			<German>Kaufe BTR-K Kamysh (Rang 40)</German>
+		</Key>
+		<Key ID="STR_DGX_GUERVEH13">	
+			<Original>Buy FV-720 Mora (Rank 40)</Original>
+			<English>Buy FV-720 Mora (Rank 40)</English>
+			<German>Kaufe FV-720 Mora (Rang 40)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH14">	
+			<Original>Buy AMV-7 Marshall (Rank 45)</Original>
+			<English>Buy AMV-7 Marshall (Rank 45)</English>
+			<German>Kaufe AMV-7 Marshall (Rang 45)</German>
+		</Key>
+		<Key ID="STR_DGX_VEH15">	
+			<Original>Buy M2A4 Slammer UP (Rank 50)</Original>
+			<English>Buy M2A4 Slammer UP (Rank 50)</English>
+			<German>Kaufe M2A4 Slammer UP (Rang 50)</German>
+		</Key>
+		<Key ID="STR_DGX_OPVEH14">	
+			<Original>Buy MSE-3 Marid (Rank 45)</Original>
+			<English>Buy MSE-3 Marid (Rank 45)</English>
+			<German>Kaufe MSE-3 Marid (Rang 45)</German>
+		</Key>
+		<Key ID="STR_DGX_OPVEH15">	
+			<Original>Buy T-100 Varsuk (Rank 50)</Original>
+			<English>Buy T-100 Varsuk (Rank 50)</English>
+			<German>Kaufe T-100 Varsuk (Rang 50)</German>
+		</Key>
+		<Key ID="STR_DGX_GUERVEH14">	
+			<Original>Buy AFV-4 Gorgon (Rank 45)</Original>
+			<English>Buy AFV-4 Gorgon (Rank 45)</English>
+			<German>Kaufe AFV-4 Gorgon (Rang 45)</German>
+		</Key>
+		<Key ID="STR_DGX_GUERVEH15">	
+			<Original>Buy MBT-52 Kuma (Rank 50)</Original>
+			<English>Buy MBT-52 Kuma (Rank 50)</English>
+			<German>Kaufe MBT-52 Kuma (Rang 50)</German>
+		</Key>
+		<Key ID="STR_DGX_COOLDWN">	
+			<Original>Your vehicle cooldown is active. Please wait a few minutes!</Original>
+			<English>Your vehicle cooldown is active. Please wait a few minutes!</English>
+			<German>Die Abklingzeit Ihres Fahrzeuges ist aktiv. Bitte warten Sie ein paar Minuten!</German>
+		</Key>
+		<Key ID="STR_DGX_SVLO">	
+			<Original>Save Loadout</Original>
+			<English>Save Loadout</English>
+			<German>Ausruestung Speichern</German>
+		</Key>
+		<Key ID="STR_DGX_ESVLO">	
+			<Original>Equip saved Loadout</Original>
+			<English>Equip saved Loadout</English>
+			<German>Gespeicherte Ausruestung laden</German>
+		</Key>
+		<Key ID="STR_DGX_TST">	
+			<Original>Teleport to Spawn-Truck</Original>
+			<English>Teleport to Spawn-Truck</English>
+			<German>Zum Spawn-Truck teleportieren</German>
+		</Key>
+		<Key ID="STR_DGX_SSMANUA">	
+			<Original>Save stats manually</Original>
+			<English>Save stats manually</English>
+			<German>Statistiken manuell speichern</German>
+		</Key>
+	</Package>
+</Project>
